@@ -10,11 +10,11 @@ package tp6;
  * @author Dani Barros
  */
 public class Cliente {
-    String nombre;
-    String apellido;
-    String ciudad;
-    String direccion;
-    String dni;
+    private String nombre;
+    private String apellido;
+    private String ciudad;
+    private String direccion;
+    private String dni;
     
     Cliente(String n,String a,String c,String d, String dni){
         this.nombre=n;

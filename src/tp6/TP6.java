@@ -26,6 +26,13 @@ public class TP6 {
         Traslasierra.agregarCliente("3544883322", Julieta);
         
         Traslasierra.mostraClientes();
+        System.out.println("");
+        Traslasierra.buscarCliente("3544562721");
+        System.out.println("");
+        Traslasierra.buscarClientes("Dolores");
+        System.out.println("");
+        Traslasierra.buscarTelefono("Barros");
+        System.out.println("");
         Traslasierra.borrarCliente("47497200");
         Traslasierra.mostraClientes();
         

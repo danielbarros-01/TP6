@@ -64,13 +64,15 @@ public class DirecTelefonico {
 
 }
      public void borrarCliente(String dni){
+         String temp=null;
          Set<String> claves=clientes.keySet();
          Iterator it = claves.iterator();
          while(it.hasNext()){
              String clave = (String)it.next();
              Cliente c=clientes.get(clave);
              if(c.getDni().equals(dni)){
-                 clientes.remove(clave);
+                 temp=clave;
              }
          }
+         clientes.remove(temp);
 }}
